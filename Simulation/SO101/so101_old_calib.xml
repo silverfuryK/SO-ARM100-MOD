@@ -95,7 +95,7 @@
               <body name="gripper" pos="2.77556e-17 -0.0611 0.0181" quat="3.31663e-08 -3.31663e-08 -0.707107 -0.707107">
                 <!-- Joint from wrist to gripper -->
                 <joint axis="0 0 1" name="wrist_roll" type="hinge" range="-2.7925268969992394 2.792526709382615" class="sts3215"/>
-                <inertial pos="0.000213627 0.000245138 -0.025187" mass="0.087" fullinertia="2.75087e-05 4.33657e-05 3.45059e-05 -3.35241e-07 -5.7352e-06 -5.17847e-08"/>
+                <inertial pos="-0.011 -0.001 0.018" mass="0.044" fullinertia="1.264e-05 1.662e-05 2.004e-05 4.368e-07 3.444e-06 2.506e-07"/>
                 <!-- Part sts3215_03a_v1_5 -->
                 <geom type="mesh" class="visual" pos="0.0077 0.0001 -0.0234" quat="0.707107 -0.707107 6.48145e-15 1.60424e-15" mesh="sts3215_03a_v1" material="sts3215_03a_v1_material"/>
                 <geom type="mesh" class="collision" pos="0.0077 0.0001 -0.0234" quat="0.707107 -0.707107 6.48145e-15 1.60424e-15" mesh="sts3215_03a_v1" material="sts3215_03a_v1_material"/>
@@ -108,7 +108,7 @@
                 <body name="moving_jaw_so101_v1" pos="0.0202 0.0188 -0.0234" quat="0.707107 0.707107 0 -4.88629e-17">
                   <!-- Joint from gripper to moving_jaw_so101_v1 -->
                   <joint axis="0 0 1" name="gripper" type="hinge" range="-0.17453292519941963 1.7453292519943429" class="sts3215"/>
-                  <inertial pos="-0.00157495 -0.0300244 0.0192755" mass="0.012" fullinertia="6.61427e-06 1.89032e-06 5.28738e-06 -3.19807e-07 -5.90717e-09 -1.09945e-07"/>
+                  <inertial pos="-0.005 -0.065 -0.001" mass="0.09" fullinertia="1e-09 7.335e-05 1e-09 -6.416e-06 -7.570e-08 -8.817e-07"/>
                   <!-- Part moving_jaw_so101_v1 -->
                   <geom type="mesh" class="visual" pos="0 1.89351e-17 0.0189" quat="1 0 1.11022e-16 8.14512e-24" mesh="moving_jaw_so101_v1" material="moving_jaw_so101_v1_material"/>
                   <geom type="mesh" class="collision" pos="0 1.89351e-17 0.0189" quat="1 0 1.11022e-16 8.14512e-24" mesh="moving_jaw_so101_v1" material="moving_jaw_so101_v1_material"/>
